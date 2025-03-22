@@ -12,7 +12,7 @@ class GridButton extends StatelessWidget {
       children: [
         IconButton.filled(
           iconSize: 30.0,
-          padding: EdgeInsets.all(15),
+          padding: const EdgeInsets.all(15),
           onPressed: () {
             print('Navigating');
           },
